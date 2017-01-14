@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>乐队</title>
+		<link rel="stylesheet" media="screen" href="css/basic.css" />
+	</head>
+	<body>
+		<header>
+			<img src="img/logo.gif" alt="bank" />
+			<nav>
+				<ul>
+					<li><a href="index.html">主页</a></li>
+					<li><a href="about.html">关于</a></li>
+					<li><a href="photos.html">照片</a></li>
+					<li><a href="live.html">现场</a></li>
+					<li><a href="contact.html">联系</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<article>
+			<h1>联系我们</h1>
+            <form method="post" action="submit.html">
+            <fieldset>
+            	<p>
+                	<label for="name">姓名:</label>
+                    <input type="text" id="name" name="name" placeholder="你的姓名" required="required" />
+                </p>
+                <p>
+                	性别：
+                    <select>
+                    	<option value="male">男</option>
+                        <option value="female">女</option>
+                    </select>
+                </p>
+                <p>
+                	<label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" placeholder="你的邮箱地址" required="required" />
+                </p>
+                <p>
+                	<label for="message">信息</label>
+                    <textarea cols="45" rows="7" id="message" name="message" required="required" placeholder="在这里输入你的信息..."></textarea>
+                </p>
+                <input type="submit" value="发送" id="submitBtn"/>
+         	</fieldset>
+            </form>
+		</article>
+        
+        <script src="js/global.js"></script>
+	</body>
+</html>

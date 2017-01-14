@@ -1,0 +1,192 @@
+*{margin:0;padding:0;}
+
+body{
+	margin:1em 10%;
+	color:#fb5;
+	background-color:#334;
+	background-image:url(../img/background.jpg);
+	font-size:1em;
+}
+
+header{
+	background-image:url(../img/guitarist.jpg);
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	background-color:black;
+	border:1px solid #667;
+	border-bottom:0;
+}
+
+header nav{
+	color:#445;
+	background-color:#789;
+	padding-left:10%;
+	border-top:0;
+	background-image:url(../img/guitarist.png);
+}
+header nav ul{
+	width:100%;
+	overflow:hidden;
+	border-left:.1em solid #99a;
+	list-style:none;
+}
+header nav ul li{
+	display:inline;
+}
+header nav ul li a{
+	display:block;
+	float:left;
+	padding:.5em 2em;
+	border-right:.1em solid white;
+	text-decoration:none;
+	font-weight:bold;
+	color:pink;
+}
+header nav ul li a:hover{
+	color:#445;
+	background-color:#eb6;
+}
+
+article{
+	border:.1em solid #667;
+	border-top:0;
+	padding:2em 10%;
+	line-height:1.8em;
+	background-color:#edc;
+	color:#223;
+}
+article p{
+	margin:1em 0;
+}
+article img{
+	border:.1em aolid #ba9;
+	outline:.1em solid #dcb;
+}
+#imagegallery a{
+	background-color:transparent;
+}
+#imagegallery li{
+	list-style-type:none;
+	display:inline;
+}
+h1{
+	font-size:2.4em;
+}
+h2{
+	font-size:1.8em;
+	margin-top:1em;
+}
+h3{
+	font-size:1.4em;
+	margin-top:1em;
+}
+
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+		color:#eef;
+		background-color:#799;
+}
+#about header{
+	background-image:url(../img/lineup.gif);
+}
+#photos header{
+	background-image:url(../img/basshead.gif);
+}
+#live header{
+	background-image:url(../img/bassist.gif);
+}
+#contact header{
+	background-image:url(../img/drummer.gif);
+}
+#slideshow{
+	width:150px;
+	height:150px;
+	position:relative;
+	overflow:hidden;
+}
+#preview{
+	position:absolute;
+	border:0;
+	outline:0;
+}
+#frame{
+	posituon:absolute;
+	top:0;
+	;eft:0;
+	z-index:99;
+}
+#intro a{
+	text-decoration:none;
+	color:#f90;
+}
+
+article nav ul{
+	list-style:none;
+	height:40px;
+	line-height:40px;
+	
+}
+article nav ul li{
+	display:inline;
+}
+article nav ul li a{
+	display:block;
+	float:left;
+	text-decoration:none;
+	color:#fff;
+	background-color:#C90;
+	margin:20px 20px;
+	padding:0 10px;
+	font-weight:bold;
+}
+article nav ul li a:hover{
+	background-color:#C0F;
+}
+section{
+	clear:both;
+}
+
+td{
+	padding:.5em 3em;
+}
+th{
+	color:#edc;
+	background-color:#455;
+}
+tr td{
+	color:#223;
+	background-color:#eb6;
+}
+dl{
+	overflow:hidden;
+}
+dt{
+	float:left;
+	margin-right:1em;
+}
+dd{
+	float:left;
+	margin-right:3em;
+}
+tr.add td{
+	color:#233;
+	background-color:#ec8;
+}
+tr.highlight td{
+	color:#233;
+	background-color:#cba;
+}
+
+label{
+	display:block;
+}
+fieldset{
+	border:0;
+}
+#submitBtn{
+	width:80px;
+	height:40px;
+	background-color:#FF0;
+}

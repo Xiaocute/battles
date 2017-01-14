@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>yy</title>
+</head>
+<body>	    
+	    <h1>¿÷∂”œ‡≤·</h1>
+            <ul id="imagegallery">
+                <li>
+                	<a href="img/photos/bassist.jpg" title="cool">
+                    	<img src="img/photos/thumbnail_bassist.jpg" alt="wtf" />
+                    	</a>
+               	</li>
+               	<li>
+               		<a href="img/photos/concert.jpg" title="love">
+                    	<img src="img/photos/thumbnail_concert.jpg" alt="wtf" />
+                    	</a>
+               	</li>
+               	<li>
+               		<a href="img/photos/crowd.jpg" title="like">
+                    	<img src="img/photos/thumbnail_crowd.jpg" alt="wtf" />
+                    	</a>
+                </li>
+                <li>
+                	<a href="img/photos/guitarist.jpg" title="win">
+                    	<img src="img/photos/thumbnail_guitarist.jpg" alt="wtf" />
+                    	</a>
+                </li>
+            </ul>
+</body>
+</html>
